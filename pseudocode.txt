@@ -1,0 +1,39 @@
+Algorithm shopping food cart online
+    //to know the flow of online food shopping
+
+
+restoran = true
+checkout = false
+total_harga = 0
+pembayaran = true
+
+function pembayaran()
+    if pembayaran == true
+        chosee_cash or chosee_e-wallet
+    else   
+        return restoran
+
+function tambah_menu()
+    while checkout != true
+            harga_menu=chosee_harga_menu
+            action = chosee_menu_action
+
+            if action == '+'
+                total_harga = total_harga + harga_menu
+            else if action == '-'
+                total_harga = total_harga - harga_menu
+            else
+                checkout = press_checkout
+                call function pembayaran
+        end
+        print total_harga
+        stop
+
+while restoran != false
+    restoran = chosee_restoran
+    back = true
+    if back = false
+        call function tambah_menu()
+    else
+        return restoran
+break
