@@ -28,3 +28,12 @@ function tambah_menu()
         end
         print total_harga
         stop
+
+while restoran != false
+    restoran = chosee_restoran
+    back = true
+    if back = false
+        call function tambah_menu()
+    else
+        return restoran
+break
